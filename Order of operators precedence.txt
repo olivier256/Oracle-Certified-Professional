@@ -1,0 +1,22 @@
+Order of operators precedence
+=============================
+
+Operator		Symbols and examples		Evaluation
+Post-unary operators	expr++, expr--			Left-to-right
+Pre-unary operators	++expr, --expr			Left-to-right
+Other unary operators	-, !, ~, +, (type)		Right-to-left
+Cast			(Type)reference			Right-to-left
+Mult / div / mod	*, /, %				Left-to-right
+Add / substr		+, -				Left-to-right
+Shift operators		<<, >>, >>>			Left-to-right
+Relational operators	<, >, <=, >=, instanceof	Left-to-right
+(Not) Equal to		==, !=				Left-to-right
+Logical AND		&				Left-to-right
+Logical exclusive OR	^				Left-to-right
+Logical inclusive OR	|				Left-to-right
+Conditional AND		&&				Left-to-right
+Conditional OR		||				Left-to-right
+Ternary operators	boolExpr ? expr1 : expr2	Right-to-left
+Assignment operators	=, +=, -=, *=, /=, %=,
+			  &=, ^=, |=, <<=, >>=, >>>=	Right-to-left
+Arrow operator		->				Right-to-left
